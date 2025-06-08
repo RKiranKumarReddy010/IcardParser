@@ -1,0 +1,2832 @@
+{
+  "results": [
+    {
+      "user_id": "stu_001",
+      "confidence": 85.38317757009345,
+      "accuracy": 0.9,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.5,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "NATHAN HENRY",
+        "college": "JNTU KAKINADA",
+        "roll_number": "22JNITS377",
+        "branch": "COMPUTER SCIENCE",
+        "valid_upto": "2O28",
+        "id_number": "22JNITS377"
+      },
+      "original_fields": {
+        "name": "Nathan Henry",
+        "college": "JNTU Kakinada",
+        "roll_number": "22JNT5377",
+        "branch": "Computer Science",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_OOI Name: Nathan Henry College: JNTU Kakinada Roll number: 22JNITS377 Branch: Computer Science Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_002",
+      "confidence": 90.16037735849056,
+      "accuracy": 0.82,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.1,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "DENISE BRYANT",
+        "college": "BITS PILANI",
+        "roll_number": "L9OBIT97O3",
+        "branch": "COMPUTER SCIENCE",
+        "valid_upto": "2O2S",
+        "id_number": "L9OBIT97O3"
+      },
+      "original_fields": {
+        "name": "Denise Bryant",
+        "college": "BITS Pilani",
+        "roll_number": "19BIT9703",
+        "branch": "Computer Science",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_OO2 Name: Denise Bryant College: BITS Pilani Roll number: L9OBIT97O3 Branch: Computer Science Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_003",
+      "confidence": 94.87755102040816,
+      "accuracy": 0.6571428571428571,
+      "field_accuracy": {
+        "name": 0.2857142857142857,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "IIT BOMBAY",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O28",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Francisco Patel",
+        "college": "IIT Bombay",
+        "roll_number": "21IIT1518",
+        "branch": "Civil Engineering",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_OO3 Name: Francisco Patel College: IIT Bombay Roll number: Branch: Civil Engineering Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_004",
+      "confidence": 93.25641025641026,
+      "accuracy": 0.9777777777777779,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.8888888888888888,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "TYRONE MCINTYRE",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "L9ANN3II7",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "L9ANN3II7"
+      },
+      "original_fields": {
+        "name": "Tyrone Mcintyre",
+        "college": "Anna University",
+        "roll_number": "19ANN3117",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_OO4 Name: Tyrone Mcintyre College: Anna University Roll number: L9ANN3II7 Branch: Mechanical Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_005",
+      "confidence": 94.82291666666667,
+      "accuracy": 0.65,
+      "field_accuracy": {
+        "name": 0.25,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "IIT BOMBAY",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O28",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Brent Jackson",
+        "college": "IIT Bombay",
+        "roll_number": "21IIT9764",
+        "branch": "Civil Engineering",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_OOS Name: Brent Jackson College: IIT Bombay Roll number: Branch: Civil Engineering Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_006",
+      "confidence": 94.7196261682243,
+      "accuracy": 0.6,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "OSMANIA UNIVERSITY",
+        "branch": "ELECTRICAL ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Jaime Smith",
+        "college": "Osmania University",
+        "roll_number": "19OSM6770",
+        "branch": "Electrical Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_OO6 Name: Jaime Smith College: Osmania University Roll number: Branch: Electrical Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_007",
+      "confidence": 91.88392857142857,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "KELLY BIRD",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "22ANN89I8",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "22ANN89I8"
+      },
+      "original_fields": {
+        "name": "Kelly Bird",
+        "college": "Anna University",
+        "roll_number": "22ANN8918",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_OO/ Name: Kelly Bird College: Anna University Roll number: 22ANN89I8 Branch: Mechanical Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_008",
+      "confidence": 91.34745762711864,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "RAHUL VERMA",
+        "college": "RECT TRICHY",
+        "roll_number": "2IJCTF2I97",
+        "branch": "COMPUTER SCIENCE AND ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "2IJCTF2I97"
+      },
+      "original_fields": {
+        "name": "Rahul Verma",
+        "college": "RECT Trichy",
+        "roll_number": "21JCTF2197",
+        "branch": "Computer Science and Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_OO8 Name: Rahul Verma College: RECT Trichy Roll number: 2IJCTF2I97 Branch: Computer Science and Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_009",
+      "confidence": 89.43298969072166,
+      "accuracy": 0.78,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.9,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "college": "IIT HYDERABAD",
+        "roll_number": "L9IIITSS97",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "L9IIITSS97"
+      },
+      "original_fields": {
+        "name": "Dr.Michelle Smith",
+        "college": "IIT Hyderabad",
+        "roll_number": "19IIIT5597",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_OO9 College: IIT Hyderabad Roll number: L9IIITSS97 Branch: Mechanical Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_010",
+      "confidence": 92.54621848739495,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "JENNIFER ROWLAND",
+        "college": "NIT TRICHY",
+        "roll_number": "2INITS447",
+        "branch": "ELECTRONICS AND COMMUNICATION",
+        "valid_upto": "2O2S",
+        "id_number": "2INITS447"
+      },
+      "original_fields": {
+        "name": "Jennifer Rowland",
+        "college": "NIT Trichy",
+        "roll_number": "21NIT5447",
+        "branch": "Electronics and Communication",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_OIO Name: Jennifer Rowland College: NIT Trichy Roll number: 2INITS447 Branch: Electronics and Communication Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_011",
+      "confidence": 92.27731092436974,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "SUSAN WRIGHT",
+        "college": "RGMCET NANDYAL",
+        "roll_number": "I9RGM6I49",
+        "branch": "ELECTRONICS AND COMMUNICATION",
+        "valid_upto": "2O26",
+        "id_number": "I9RGM6I49"
+      },
+      "original_fields": {
+        "name": "Susan Wright",
+        "college": "RGMCET Nandyal",
+        "roll_number": "19RGM6149",
+        "branch": "Electronics and Communication",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_OII Name: Susan Wright College: RGMCET Nandyal Roll number: I9RGM6I49 Branch: Electronics and Communication Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_012",
+      "confidence": 90.7,
+      "accuracy": 0.8400000000000001,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.2,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "DANA HUBER",
+        "college": "OSMANIA UNIVERSITY",
+        "roll_number": "L8SOSM88I7",
+        "branch": "COMPUTER SCIENCE",
+        "valid_upto": "2O2S",
+        "id_number": "L8SOSM88I7"
+      },
+      "original_fields": {
+        "name": "Dana Huber",
+        "college": "Osmania University",
+        "roll_number": "18OSM8817",
+        "branch": "Computer Science",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_OI2 Name: Dana Huber College: Osmania University Roll number: L8SOSM88I7 Branch: Computer Science Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_013",
+      "confidence": 91.47933884297521,
+      "accuracy": 0.9333333333333333,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.6666666666666666,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BREDAN CASTILLO",
+        "college": "IIT HYDERABAD",
+        "roll_number": "I9IITS92",
+        "branch": "ELECTRONICS AND COMMUNICATION",
+        "valid_upto": "2O27",
+        "id_number": "I9IITS"
+      },
+      "original_fields": {
+        "name": "Bredan Castillo",
+        "college": "IIT HYDERABAD",
+        "roll_number": "19IIT5792",
+        "branch": "Electronics and Communication",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_OI3 Name: Bredan Castillo College: IIT HYDERABAD Roll number: I9IITS/92 Branch: Electronics and Communication Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_014",
+      "confidence": 92.88888888888889,
+      "accuracy": 0.8,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "MELISSA BAIRD",
+        "college": "BITS PILANI",
+        "valid_upto": "2O27",
+        "roll_number": "74",
+        "branch": "ELECTRONICS AND COMMUNICATION",
+        "id_number": "2OBITS"
+      },
+      "original_fields": {
+        "name": "Melissa Baird",
+        "college": "BITS Pilani",
+        "roll_number": "20BIT5774",
+        "branch": "Electronics and Communication",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_OI4 Name: Melissa Baird College: BITS Pilani Roll number: 2OBITS/ 74 Branch: Electronics and Communication Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_015",
+      "confidence": 92.98130841121495,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "college": "ABCD INSTITUTE",
+        "name": "MOHIT PATEL",
+        "roll_number": "2OLBCSIOI6",
+        "branch": "COMPUTER SCIENCE",
+        "valid_upto": "2O2S",
+        "id_number": "2OLBCSIOI6"
+      },
+      "original_fields": {
+        "name": "Mohit Patel",
+        "college": "ABCD INSTITUTE",
+        "roll_number": "20LBCS1016",
+        "branch": "Computer Science",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_OIS Name: Mohit Patel College: ABCD INSTITUTE Roll number: 2OLBCSIOI6 Branch: Computer Science Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_017",
+      "confidence": 89.33962264150944,
+      "accuracy": 0.795,
+      "field_accuracy": {
+        "name": 0.875,
+        "college": 1.0,
+        "roll_number": 0.1,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "NEHA LYER",
+        "college": "PQR UNIVERSITY",
+        "roll_number": "L9QUCHIO23",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "L9QUCHIO23"
+      },
+      "original_fields": {
+        "name": "Neha Iyer",
+        "college": "PQR UNIVERSITY",
+        "roll_number": "19UCH1023",
+        "branch": "Civil Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_OI7 Name: Neha lyer College: PQR UNIVERSITY Roll number: L9QUCHIO23 Branch: Civil Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_018",
+      "confidence": 89.08849557522124,
+      "accuracy": 0.8181818181818181,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.09090909090909091,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "DIVYA MENON",
+        "college": "ABC INSTITUTE",
+        "roll_number": "L9OBITOO994",
+        "branch": "INFORMATION TECHNOLOGY",
+        "valid_upto": "2O2S",
+        "id_number": "L9OBITOO994"
+      },
+      "original_fields": {
+        "name": "Divya Menon",
+        "college": "ABC Institute",
+        "roll_number": "19BIT0994",
+        "branch": "Information Technology",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_OI8 Name: Divya Menon College: ABC Institute Roll number: L9OBITOO994 Branch: Information Technology Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_019",
+      "confidence": 93.83018867924528,
+      "accuracy": 0.6,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "GHI UNIVERSITY",
+        "branch": "INFORMATICAL ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Sanjay Kumar",
+        "college": "GHI University",
+        "roll_number": "18BME0458",
+        "branch": "Informatical Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_OI9 Name: Sanjay Kumar College: GHI University Roll number: Branch: Informatical Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_020",
+      "confidence": 92.82727272727273,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "DEEPAK KUMAR",
+        "college": "UVW COLLEGE",
+        "roll_number": "2OMEIOS6",
+        "branch": "INFORMATION ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "2OMEIOS6"
+      },
+      "original_fields": {
+        "name": "Deepak Kumar",
+        "college": "UVW College",
+        "roll_number": "20ME1056",
+        "branch": "Information Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_O2O Name: Deepak Kumar College: UVW College Roll number: 2OMEIOS6 Branch: Information Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_021",
+      "confidence": 91.95867768595042,
+      "accuracy": 0.8,
+      "field_accuracy": {
+        "name": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "institution": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "MELISSA BAIRD",
+        "valid_upto": "2O27",
+        "roll_number": "74",
+        "branch": "ELECTRONICS AND COMMUNICATION",
+        "institution": "BITS Pilani",
+        "id_number": "2OBITS",
+        "college": "BITS PILANI VALID UPTO"
+      },
+      "original_fields": {
+        "name": "Melissa Baird",
+        "roll_number": "20BIT5774",
+        "branch": "Electronics and Communication",
+        "institution": "BITS Pilani",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O2I Name: Melissa Baird Roll number: 2OBITS/ 74 Branch: Electronics and Communication Institution: BITS Pilani Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_022",
+      "confidence": 93.07438016528926,
+      "accuracy": 0.8,
+      "field_accuracy": {
+        "name": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "institution": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "MELISSA BAIRD",
+        "valid_upto": "2O27",
+        "roll_number": "74",
+        "branch": "ELECTRONICS AND COMMUNICATION",
+        "institution": "BITS Pilani",
+        "id_number": "2OBITS",
+        "college": "BITS PILANI VALID UPTO"
+      },
+      "original_fields": {
+        "name": "Melissa Baird",
+        "roll_number": "20BIT5774",
+        "branch": "Electronics and Communication",
+        "institution": "BITS Pilani",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O22 Name: Melissa Baird Roll number: 2OBITS/ 74 Branch: Electronics and Communication Institution: BITS Pilani Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_023",
+      "confidence": 93.50819672131148,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "institution": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "MARIA CARROLL",
+        "roll_number": "I9OSM2326",
+        "branch": "MECHANICAL ENGINEERING",
+        "institution": "Osmania University",
+        "valid_upto": "2O28",
+        "id_number": "I9OSM2326",
+        "college": "OSMANIA UNIVERSITY VALID UPTO"
+      },
+      "original_fields": {
+        "name": "Maria Carroll",
+        "roll_number": "19OSM2326",
+        "branch": "Mechanical Engineering",
+        "institution": "Osmania University",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O23 Name: Maria Carroll Roll number: I9OSM2326 Branch: Mechanical Engineering Institution: Osmania University Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_024",
+      "confidence": 92.40336134453781,
+      "accuracy": 0.9555555555555555,
+      "field_accuracy": {
+        "name": 1.0,
+        "university": 1.0,
+        "roll_number": 0.7777777777777778,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "CHRISTOPHER HARRELL",
+        "university": "NIT TRICHY",
+        "roll_number": "22NIT8S8",
+        "branch": "ELECTRICAL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "22NIT8S"
+      },
+      "original_fields": {
+        "name": "Christopher Harrell",
+        "university": "NIT TRICHY",
+        "roll_number": "22NIT8578",
+        "branch": "Electrical Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O24 Name: Christopher Harrell University: NIT TRICHY Roll number: 22NIT8S/8 Branch: Electrical Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_025",
+      "confidence": 92.24369747899159,
+      "accuracy": 0.9555555555555555,
+      "field_accuracy": {
+        "name": 1.0,
+        "university": 1.0,
+        "roll_number": 0.7777777777777778,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "CHRISTOPHER HARRELL",
+        "university": "NIT TRICHY",
+        "roll_number": "22NIT8S8",
+        "branch": "ELECTRICAL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "22NIT8S"
+      },
+      "original_fields": {
+        "name": "Christopher Harrell",
+        "university": "NIT TRICHY",
+        "roll_number": "22NIT8578",
+        "branch": "Electrical Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O2S Name: Christopher Harrell University: NIT TRICHY Roll number: 22NIT8S/8 Branch: Electrical Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_026",
+      "confidence": 94.83333333333333,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "university": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "TYLER JONES",
+        "university": "HIT HYDERABAD",
+        "roll_number": "2IIIIS634",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "2IIIIS634"
+      },
+      "original_fields": {
+        "name": "Tyler Jones",
+        "university": "HIT HYDERABAD",
+        "roll_number": "211115634",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O26 Name: Tyler Jones University: HIT HYDERABAD Roll number: 2IIIIS634 Branch: Mechanical Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_027",
+      "confidence": 93.328,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "university": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "college": "STU_O27 NAME",
+        "name": "ROBERT ROSS",
+        "university": "OSMANIA UNIVERSITY",
+        "roll_number": "2OOSM442S",
+        "branch": "ELECTRONICS AND COMMUNICATION",
+        "valid_upto": "2O26",
+        "id_number": "2OOSM442S"
+      },
+      "original_fields": {
+        "name": "Robert Ross",
+        "university": "OSMANIA UNIVERSITY",
+        "roll_number": "200SM4425",
+        "branch": "Electronics and Communication",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O27 Name: Robert Ross University: OSMANIA UNIVERSITY Roll number: 2OOSM442S Branch: Electronics and Communication Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_028",
+      "confidence": 93.08928571428571,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "university": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "JOHN ADAMS",
+        "university": "OSMANIA UNIVERSITY",
+        "roll_number": "2OOSM3IO4",
+        "branch": "COMPUTER SCIENCE",
+        "valid_upto": "2O27",
+        "id_number": "2OOSM3IO4"
+      },
+      "original_fields": {
+        "name": "John Adams",
+        "university": "OSMANIA UNIVERSITY",
+        "roll_number": "200SM3104",
+        "branch": "Computer Science",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O28 Name: John Adams University: OSMANIA UNIVERSITY Roll number: 2OOSM3IO4 Branch: Computer Science Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_029",
+      "confidence": 94.3495145631068,
+      "accuracy": 0.6,
+      "field_accuracy": {
+        "name": 0.0,
+        "university": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "university": "JNTU KAKINADA",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O28",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Steven Vo Young",
+        "university": "JNTU KAKINADA",
+        "roll_number": "19JNT2979",
+        "branch": "Civil Engineering",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O29 Name: Steven Vo Young University: JNTU KAKINADA Roll number: Branch: Civil Engineering Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_030",
+      "confidence": 92.88571428571429,
+      "accuracy": 0.888888888888889,
+      "field_accuracy": {
+        "name": 1.0,
+        "university": 1.0,
+        "roll_number": 0.4444444444444444,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BARRY YU",
+        "university": "JNTU KAKINADA",
+        "roll_number": "L8JNT673",
+        "branch": "COMPUTER SCIENCE",
+        "valid_upto": "2O28"
+      },
+      "original_fields": {
+        "name": "Barry Yu",
+        "university": "JNTU KAKINADA",
+        "roll_number": "18JNT7673",
+        "branch": "Computer Science",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O3O Name: Barry Yu University: JNTU KAKINADA Roll number: L8JNT/673 Branch: Computer Science Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_031",
+      "confidence": 90.35922330097087,
+      "accuracy": 0.7555555555555555,
+      "field_accuracy": {
+        "name": 0.3333333333333333,
+        "university": 1.0,
+        "roll_number": 0.4444444444444444,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BARRY UNIVERSITY",
+        "university": "JNTU KAKINADA",
+        "roll_number": "L8JNT673",
+        "branch": "COMPUTER SCIENCE",
+        "valid_upto": "2O28"
+      },
+      "original_fields": {
+        "name": "Barry ",
+        "university": "JNTU KAKINADA",
+        "roll_number": "18JNT7673",
+        "branch": "Computer Science",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O3I Name: Barry University: JNTU KAKINADA Roll number: L8JNT/673 Branch: Computer Science Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_032",
+      "confidence": 94.175,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "THOMAS GREEN",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "22ANNS29S",
+        "branch": "ELECTRONICS AND COMMUNICATION",
+        "valid_upto": "2O27",
+        "id_number": "22ANNS29S"
+      },
+      "original_fields": {
+        "name": "Thomas Green",
+        "college": "Anna University",
+        "roll_number": "22ANN5295",
+        "branch": "Electronics and Communication",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O32 Name: Thomas Green College: Anna University Roll number: 22ANNS29S Branch: Electronics and Communication Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_033",
+      "confidence": 90.2090909090909,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "ROBERT HARTMAN",
+        "college": "RGMCET NANDYAL",
+        "roll_number": "2ORGM9332",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "2ORGM9332"
+      },
+      "original_fields": {
+        "name": "Robert Hartman",
+        "college": "RGMCET Nandyal",
+        "roll_number": "20RGM9332",
+        "branch": "Civil Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O33 Name: Robert Hartman College: RGMCET Nandyal Roll number: 2ORGM9332 Branch: Civil Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_034",
+      "confidence": 94.86538461538461,
+      "accuracy": 0.6363636363636364,
+      "field_accuracy": {
+        "name": 0.18181818181818182,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "IIIT HYDERABAD",
+        "branch": "ELECTRICAL ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Brian Kelley",
+        "college": "IIIT Hyderabad",
+        "roll_number": "21IIIT6710",
+        "branch": "Electrical Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_O34 Name: Brian Kelley College: IIIT Hyderabad Roll number: Branch: Electrical Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_035",
+      "confidence": 91.60185185185185,
+      "accuracy": 0.9333333333333333,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.6666666666666666,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "ASHLEY HOLT",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "2IANN847",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O28",
+        "id_number": "2IANN8"
+      },
+      "original_fields": {
+        "name": "Ashley Holt",
+        "college": "Anna University",
+        "roll_number": "21ANN8747",
+        "branch": "Civil engineering",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O3S Name: Ashley Holt College: Anna University Roll number: 2IANN8/47 Branch: Civil engineering Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_036",
+      "confidence": 94.38938053097345,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "KAITLIN HOPKINS",
+        "college": "BITS PILANI",
+        "roll_number": "22BIT3O28",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "22BIT3O28"
+      },
+      "original_fields": {
+        "name": "Kaitlin Hopkins",
+        "college": "BITS Pilani",
+        "roll_number": "22BIT3028",
+        "branch": "Mechanical engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O36 Name: Kaitlin Hopkins College: BITS Pilani Roll number: 22BIT3O28 Branch: Mechanical engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_037",
+      "confidence": 89.78504672897196,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "JENNIFER DILLON",
+        "college": "BITS PILANI",
+        "roll_number": "2OBIT9699",
+        "branch": "COMPUTER SCIENCE",
+        "valid_upto": "2O27",
+        "id_number": "2OBIT9699"
+      },
+      "original_fields": {
+        "name": "Jennifer Dillon",
+        "college": "BITS Pilani",
+        "roll_number": "20BIT9699",
+        "branch": "Computer Science",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O37 Name: Jennifer Dillon College: BITS Pilani Roll number: 2OBIT9699 Branch: Computer Science Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_038",
+      "confidence": 93.52252252252252,
+      "accuracy": 0.9777777777777779,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.8888888888888888,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "WILLIAM PRICE",
+        "college": "BITS PILANI",
+        "roll_number": "L8BIT4492",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "L8BIT4492"
+      },
+      "original_fields": {
+        "name": "William Price",
+        "college": "BITS Pilani",
+        "roll_number": "18BIT4492",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O38 Name: William Price College: BITS Pilani Roll number: L8BIT4492 Branch: Mechanical Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_039",
+      "confidence": 89.4,
+      "accuracy": 0.86,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.3,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "SAGARIKA SAHU",
+        "college": "RGMCET NANDYAL",
+        "roll_number": "2OORGM3997",
+        "branch": "COMPUTER SCIENCE",
+        "valid_upto": "2O28",
+        "id_number": "2OORGM3997"
+      },
+      "original_fields": {
+        "name": "Sagarika Sahu",
+        "college": "RGMCET Nandyal",
+        "roll_number": "20RGM3997",
+        "branch": "Computer Science",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O39 Name: Sagarika Sahu College: RGMCET Nandyal Roll number: 2OORGM3997/ Branch: Computer Science Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_040",
+      "confidence": 91.94495412844037,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "WILLIAM HARTMAN",
+        "college": "IIT HYDERABAD",
+        "roll_number": "22III96O6",
+        "branch": "COMPUTER SCIENCE",
+        "valid_upto": "2O26",
+        "id_number": "22III96O6"
+      },
+      "original_fields": {
+        "name": "William Hartman",
+        "college": "IIT Hyderabad",
+        "roll_number": "22III9606",
+        "branch": "Computer Science",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O4O Name: William Hartman College: IIT Hyderabad Roll number: 22III96O6 Branch: Computer Science Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_042",
+      "confidence": 93.30555555555556,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "LAURA HENSON",
+        "college": "RGMCET NANDYAL",
+        "roll_number": "22RGM8892",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "22RGM8892"
+      },
+      "original_fields": {
+        "name": "Laura Henson",
+        "college": "RGMCET Nandyal",
+        "roll_number": "22RGM8892",
+        "branch": "Civil Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O42 Name: Laura Henson College: RGMCET Nandyal Roll number: 22RGM8892 Branch: Civil Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_043",
+      "confidence": 94.81981981981981,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "LORI HERNANDEZ",
+        "college": "OSMANIA UNIVERSITY",
+        "roll_number": "22O69I9",
+        "branch": "COMPUTER SCIENCE",
+        "valid_upto": "2O28",
+        "id_number": "22O69I9"
+      },
+      "original_fields": {
+        "name": "Lori Hernandez",
+        "college": "Osmania University",
+        "roll_number": "2206919",
+        "branch": "Computer Science",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O43 Name: Lori Hernandez College: Osmania University Roll number: 22O69I9 Branch: Computer Science Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_044",
+      "confidence": 94.12631578947368,
+      "accuracy": 0.8,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 0.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "MARY BEAN",
+        "roll_number": "2IBIT6288",
+        "branch": "ELECTRONICS AND COMMUNICATION",
+        "valid_upto": "2O27",
+        "id_number": "2IBIT6288"
+      },
+      "original_fields": {
+        "name": "Mary Bean",
+        "college": "College: BITS Pilani",
+        "roll_number": "21BIT6288",
+        "branch": "Electronics and Communication",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O44 Name: Mary Bean Roll number: 2IBIT6288 Branch: Electronics and Communication Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_045",
+      "confidence": 92.01020408163265,
+      "accuracy": 0.4,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 0.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "I9BIT4668 BRANCH",
+        "branch": "ELECTRONICS AND COMMUNICATION",
+        "valid_upto": "2O28",
+        "id_number": "I9BIT4668"
+      },
+      "original_fields": {
+        "name": "Jason Mullen",
+        "college": "College: BITS Pilani",
+        "roll_number": "19BIT4668",
+        "branch": "Electronics and Communication",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O4S Name: Jason Mullen Roll number: I9BIT4668 Branch: Electronics and Communication Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_046",
+      "confidence": 91.41525423728814,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "RAHUL VERMA",
+        "college": "RECT TRICHY",
+        "roll_number": "2IJCTF2I97",
+        "branch": "COMPUTER SCIENCE AND ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "2IJCTF2I97"
+      },
+      "original_fields": {
+        "name": "Rahul Verma",
+        "college": "RECT Trichy",
+        "roll_number": "21JCTF2197",
+        "branch": "Computer Science and Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O46 Name: Rahul Verma College: RECT Trichy Roll number: 2IJCTF2I97 Branch: Computer Science and Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_047",
+      "confidence": 84.0909090909091,
+      "accuracy": 0.42000000000000004,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 0.0,
+        "roll_number": 0.1,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "roll_number": "L8SRGM3468",
+        "branch": "ELECTRICAL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "L8SRGM3468"
+      },
+      "original_fields": {
+        "name": "Ashley Shaw DVM",
+        "college": "College: RGMCET Nandyal",
+        "roll_number": "18RGM3468",
+        "branch": "Electrical Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O47 Roll number: L8SRGM3468 Branch: Electrical Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_048",
+      "confidence": 94.3125,
+      "accuracy": 0.8,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 0.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "KIM MORALES",
+        "roll_number": "2IANN6476",
+        "branch": "COMPUTER SCIENCE ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "2IANN6476"
+      },
+      "original_fields": {
+        "name": "Kim Morales",
+        "college": "College: Anna University",
+        "roll_number": "21ANN6476",
+        "branch": "Computer Science engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_O48 Name: Kim Morales Roll number: 2IANN6476 Branch: Computer Science engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_049",
+      "confidence": 93.15454545454546,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "ANJALI SHARMA",
+        "college": "RGMCET NANDYAL",
+        "roll_number": "22KIFE43O7",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "22KIFE43O7"
+      },
+      "original_fields": {
+        "name": "Anjali Sharma",
+        "college": "RGMCET Nandyal ",
+        "roll_number": "22KIFE4307",
+        "branch": "Civil Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_O49 Name: Anjali Sharma College: RGMCET Nandyal Roll number: 22KIFE43O7 Branch: Civil Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_050",
+      "confidence": 94.73333333333333,
+      "accuracy": 0.6,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "college": "IIIT HYDERABAD",
+        "name": "BRANCH",
+        "branch": "ELECTRICAL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Kimberly Bush",
+        "college": "IIIT Hyderabad",
+        "roll_number": "20IIT9907",
+        "branch": "Electrical Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_OSO Name: Kimberly Bush College: IIIT Hyderabad Roll number: Branch: Electrical Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_051",
+      "confidence": 91.55208333333333,
+      "accuracy": 0.6,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "JNTU KAKINADA",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Darin Love",
+        "college": "JNTU Kakinada",
+        "roll_number": "19JNTU4624",
+        "branch": "Civil Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_OSI Name: Darin Love College: JNTU Kakinada Roll number: Branch: Civil Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_052",
+      "confidence": 94.30973451327434,
+      "accuracy": 0.5837837837837838,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 0.918918918918919,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "IIT BOMBAY",
+        "branch": "ELECTRONIC AND COMMUNICATION ENGINEER",
+        "valid_upto": "2O27",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Tammy Barnes",
+        "college": "IIT Bombay",
+        "roll_number": "19IIT8891",
+        "branch": "Electronic and Communication Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_OS2 Name: Tammy Barnes College: IIT Bombay Roll number: Branch: Electronic and Communication Engineer Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_053",
+      "confidence": 93.18518518518519,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "LAURA HENSON",
+        "college": "RGMCET NANDYAL",
+        "roll_number": "22RGM8892",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "22RGM8892"
+      },
+      "original_fields": {
+        "name": "Laura Henson",
+        "college": "RGMCET Nandyal",
+        "roll_number": "22RGM8892",
+        "branch": "Civil Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_OS3 Name: Laura Henson College: RGMCET Nandyal Roll number: 22RGM8892 Branch: Civil Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_054",
+      "confidence": 90.5,
+      "accuracy": 0.82,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.1,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "ERICA HUBBARD",
+        "college": "RGMCET NANDYAL",
+        "roll_number": "L8SRGM3O86",
+        "branch": "COMPUTER SCIENCE ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "L8SRGM3O86"
+      },
+      "original_fields": {
+        "name": "Erica Hubbard",
+        "college": "RGMCET Nandyal",
+        "roll_number": "18RGM3086",
+        "branch": "Computer Science Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_OS4 Name: Erica Hubbard College: RGMCET Nandyal Roll number: L8SRGM3O86 Branch: Computer Science Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_055",
+      "confidence": 90.475,
+      "accuracy": 0.82,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.1,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "college": "RGMCET NANDYAL",
+        "name": "ERICA HUBBARD",
+        "roll_number": "L8SRGM3O86",
+        "branch": "COMPUTER SCIENCE ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "L8SRGM3O86"
+      },
+      "original_fields": {
+        "name": "Erica Hubbard",
+        "college": "RGMCET Nandyal",
+        "roll_number": "18RGM3086",
+        "branch": "Computer Science Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_OSS Name: Erica Hubbard College: RGMCET Nandyal Roll number: L8SRGM3O86 Branch: Computer Science Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_056",
+      "confidence": 91.14414414414415,
+      "accuracy": 0.8222222222222222,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.1111111111111111,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "college": "IIT BOMBAY",
+        "name": "SEAN RODRIGUEZ",
+        "valid_upto": "2O27",
+        "roll_number": "T6OI8",
+        "branch": "MECHANICAL ENGINEERING"
+      },
+      "original_fields": {
+        "name": "Sean Rodriguez",
+        "college": "IIT Bombay",
+        "roll_number": "20IIT6018",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_OS6 Name: Sean Rodriguez College: IIT Bombay Roll number: 2OI/T6OI8 Branch: Mechanical Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_057",
+      "confidence": 89.9074074074074,
+      "accuracy": 0.9333333333333333,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.6666666666666666,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "ASHLEY HOLT",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "2IANN847",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O28",
+        "id_number": "2IANN8"
+      },
+      "original_fields": {
+        "name": "Ashley Holt",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "21ANN8747",
+        "branch": "Civil Engineering",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_OS/ Name: Ashley Holt College: ANNA UNIVERSITY Roll number: 2IANN8/47 Branch: Civil Engineering Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_058",
+      "confidence": 93.89380530973452,
+      "accuracy": 0.5789473684210527,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 0.8947368421052632,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "IIT BOMBAY",
+        "branch": "ELECTRONICS AND COMMUNICATION ENGINEE",
+        "valid_upto": "2O27",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Tammy Barnes",
+        "college": "IIT Bombay",
+        "roll_number": "19IIT8891",
+        "branch": "Electronics and communication Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_OS8 Name: Tammy Barnes College: IIT Bombay Roll number: Branch: Electronics and communication Enginee Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_059",
+      "confidence": 93.6639344262295,
+      "accuracy": 0.5789473684210527,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 0.8947368421052632,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "OSMANIA UNIVERSITY",
+        "branch": "ELECTRONICS AND COMMUNICATION ENGINEE",
+        "valid_upto": "2O26",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Steven Mendez",
+        "college": "Osmania University",
+        "roll_number": "19OSM8006",
+        "branch": "Electronics and Communication Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_OS9 Name: Steven Mendez College: Osmania University Roll number: Branch: Electronics and Communication Enginee Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_060",
+      "confidence": 94.0241935483871,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "LORI HERNANDEZ",
+        "college": "OSMANIA UNIVERSITY",
+        "roll_number": "22OSM69I9",
+        "branch": "COMPUTER SCIENCE ENGINEERING",
+        "valid_upto": "2O28",
+        "id_number": "22OSM69I9"
+      },
+      "original_fields": {
+        "name": "Lori Hernandez",
+        "college": "Osmania University",
+        "roll_number": "22OSM6919",
+        "branch": "Computer Science Engineering",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O6O Name: Lori Hernandez College: Osmania University Roll number: 22OSM69I9 Branch: Computer Science Engineering Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_061",
+      "confidence": 86.93877551020408,
+      "accuracy": 0.62,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.1,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "college": "RGMCET NANDYAL",
+        "roll_number": "L8SRGM3468",
+        "branch": "ELECTRICAL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "L8SRGM3468"
+      },
+      "original_fields": {
+        "name": "Dr.Ashley Shaw DVM",
+        "college": "RGMCET Nandyal",
+        "roll_number": "18RGM3468",
+        "branch": "Electrical Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O6I College: RGMCET Nandyal Roll number: L8SRGM3468 Branch: Electrical Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_062",
+      "confidence": 90.30645161290323,
+      "accuracy": 0.8800000000000001,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.4,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "SCOTT JACKSON",
+        "college": "OSMANIA UNIVERSITY",
+        "roll_number": "2IOOSM4469",
+        "branch": "COMPUTER SCIENCE ENGINEERING",
+        "valid_upto": "2O28",
+        "id_number": "2IOOSM4469"
+      },
+      "original_fields": {
+        "name": "Scott Jackson",
+        "college": "Osmania University",
+        "roll_number": "21OSM4469",
+        "branch": "Computer Science Engineering",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O62 Name: Scott Jackson College: Osmania University Roll number: 2IOOSM4469 Branch: Computer Science Engineering Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_063",
+      "confidence": 95.12389380530973,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "JASON MULLEN",
+        "college": "BITS PILANI",
+        "roll_number": "I9I766",
+        "branch": "ELECTRONICS AND COMMUNICATION",
+        "valid_upto": "2O28",
+        "id_number": "I9I766"
+      },
+      "original_fields": {
+        "name": "Jason Mullen",
+        "college": "BITS Pilani",
+        "roll_number": "191766",
+        "branch": "Electronics and Communication",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O63 Name: Jason Mullen College: BITS Pilani Roll number: I9I766 Branch: Electronics and Communication Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_064",
+      "confidence": 94.47619047619048,
+      "accuracy": 0.6,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "ANN UNIVERSITY",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Mario Johnson",
+        "college": "ANN UNIVERSITY",
+        "roll_number": "18ANN9976",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O64 Name: Mario Johnson College: ANN UNIVERSITY Roll number: Branch: Mechanical Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_065",
+      "confidence": 92.36363636363636,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "ROBERT HARTMAN",
+        "college": "RGMCET NANDYAL",
+        "roll_number": "2ORGM9332",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "2ORGM9332"
+      },
+      "original_fields": {
+        "name": "Robert Hartman",
+        "college": "RGMCET NANDYAL",
+        "roll_number": "20RGM9332",
+        "branch": "Civil Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O6S Name: Robert Hartman College: RGMCET NANDYAL Roll number: 2ORGM9332 Branch: Civil Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_066",
+      "confidence": 92.37272727272727,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "ROBERT HARTMAN",
+        "college": "RGMCET NANDYAL",
+        "roll_number": "2ORGM9332",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "2ORGM9332"
+      },
+      "original_fields": {
+        "name": "Robert Hartman",
+        "college": "RGMCET NANDYAL",
+        "roll_number": "20RGM9332",
+        "branch": "Civil Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O66 Name: Robert Hartman College: RGMCET NANDYAL Roll number: 2ORGM9332 Branch: Civil Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_067",
+      "confidence": 93.88571428571429,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "KIMBERLY CARTER",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "2IANN468I",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "2IANN468I"
+      },
+      "original_fields": {
+        "name": "Kimberly Carter",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "21ANN4681",
+        "branch": "Civil Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - Name: Kimberly Carter College: ANNA UNIVERSITY Roll number: 2IANN468I Branch: Civil Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_068",
+      "confidence": 91.375,
+      "accuracy": 0.8400000000000001,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.2,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRENDA HERNANDEZ",
+        "college": "ANNA ANNUNIVERSITY",
+        "roll_number": "L8SANNS473",
+        "branch": "ELECTRONICS AND COMMUNICATION",
+        "valid_upto": "2O28",
+        "id_number": "L8SANNS473"
+      },
+      "original_fields": {
+        "name": "Brenda Hernandez",
+        "college": "ANNA ANNUNIVERSITY",
+        "roll_number": "18ANN5473",
+        "branch": "Electronics and communication",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O68 Name: Brenda Hernandez College: ANNA ANNUNIVERSITY Roll number: L8SANNS473 Branch: Electronics and communication Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_069",
+      "confidence": 93.6875,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "KIMBERLY CARTER",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "2IANN468I",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "2IANN468I"
+      },
+      "original_fields": {
+        "name": "Kimberly Carter",
+        "college": "Anna University",
+        "roll_number": "21ANN4681",
+        "branch": "Civil Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O69 Name: Kimberly Carter College: Anna University Roll number: 2IANN468I Branch: Civil Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_070",
+      "confidence": 92.48181818181818,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "college": "JNTU KAKINADA",
+        "name": "WAYNE GRAY",
+        "roll_number": "22JNT4434",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "22JNT4434"
+      },
+      "original_fields": {
+        "name": "Wayne Gray",
+        "college": "JNTU Kakinada",
+        "roll_number": "22JNT4434",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_O/O Name: Wayne Gray College: JNTU Kakinada Roll number: 22JNT4434 Branch: Mechanical Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_071",
+      "confidence": 92.71428571428571,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "college": "NIT TRICHY",
+        "name": "CONNOR HERNANDEZ",
+        "roll_number": "22NIT3283",
+        "branch": "ELECTRONICS AND COMMUNICATION",
+        "valid_upto": "2O26",
+        "id_number": "22NIT3283"
+      },
+      "original_fields": {
+        "name": "Connor Hernandez",
+        "college": "NIT Trichy",
+        "roll_number": "22NIT3283",
+        "branch": "Electronics and communication",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O/I Name: Connor Hernandez College: NIT Trichy Roll number: 22NIT3283 Branch: Electronics and communication Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_072",
+      "confidence": 90.38931297709924,
+      "accuracy": 0.8900584795321638,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.5555555555555556,
+        "branch": 0.8947368421052632,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANDON JOHNSON",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "2OOANN662",
+        "branch": "ELECTRONICS AND COMMUNICATION ENGINEE",
+        "valid_upto": "2O26",
+        "id_number": "2OOANN6"
+      },
+      "original_fields": {
+        "name": "Brandon Johnson",
+        "college": "Anna University",
+        "roll_number": "20ANN6762",
+        "branch": "Electronics and communication Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O/2 Name: Brandon Johnson College: Anna University Roll number: 2OOANN6/62 Branch: Electronics and communication Enginee Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_073",
+      "confidence": 92.76146788990826,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "college": "JNTU KAKINADA",
+        "name": "STEVE FOX",
+        "roll_number": "2IJNT82S2",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "2IJNT82S2"
+      },
+      "original_fields": {
+        "name": "Steve Fox ",
+        "college": "JNTU Kakinada",
+        "roll_number": "21JNT8252",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O/3 Name: Steve Fox College: JNTU Kakinada Roll number: 2IJNT82S2 Branch: Mechanical Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_074.",
+      "confidence": 89.81,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "JENNIFER DILLON",
+        "college": "BITS PILANI",
+        "roll_number": "2OBIT9699",
+        "branch": "COMPUTER SCIENCE",
+        "valid_upto": "2O27",
+        "id_number": "2OBIT9699"
+      },
+      "original_fields": {
+        "name": "Jennifer Dillon",
+        "college": "BITS Pilani",
+        "roll_number": "20BIT9699",
+        "branch": "Computer Science",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - Name: Jennifer Dillon College: BITS Pilani Roll number: 2OBIT9699 Branch: Computer Science Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_075",
+      "confidence": 90.43846153846154,
+      "accuracy": 0.9789473684210526,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 0.8947368421052632,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "college": "OSMANIA UNIVERSITY",
+        "branch": "ELECTRONICS AND COMMUNICATION ENGINEE",
+        "name": "LISA HARDIN",
+        "roll_number": "2OOSM773I",
+        "valid_upto": "2O26",
+        "id_number": "2OOSM7"
+      },
+      "original_fields": {
+        "name": "Lisa Hardin",
+        "college": "Osmania University",
+        "roll_number": "20OSM7731",
+        "branch": "Electronics and communication Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O/S Name: Lisa Hardin College: Osmania University Roll number: 2OOSM7/73I Branch: Electronics and communication Enginee Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_076",
+      "confidence": 94.43809523809524,
+      "accuracy": 0.6,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "IIIT HYDERABAD",
+        "branch": "ELECTRICAL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Kimberly Bush",
+        "college": "IIIT Hyderabad",
+        "roll_number": "20IIIT9907",
+        "branch": "Electrical Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O/6 Name: Kimberly Bush College: IIIT Hyderabad Roll number: Branch: Electrical Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_077",
+      "confidence": 94.09433962264151,
+      "accuracy": 0.5789473684210527,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 0.8947368421052632,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "IIT BOMBAY",
+        "branch": "ELECTRONICS AND COMMUNICATION ENGINEE",
+        "valid_upto": "2O27",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Tammy Barnes",
+        "college": "IIT Bombay",
+        "roll_number": "19IIT8891",
+        "branch": "Electronics and communication Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - Name: Tammy Barnes College: IIT Bombay Roll number: Branch: Electronics and communication Enginee Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_078",
+      "confidence": 90.88888888888889,
+      "accuracy": 0.9333333333333333,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.6666666666666666,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "ASHLEY HOLT",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "2IANN847",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O28",
+        "id_number": "2IANN8"
+      },
+      "original_fields": {
+        "name": "Ashley Holt",
+        "college": "Anna University",
+        "roll_number": "21ANN8747",
+        "branch": "Civil Engineering",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O78 Name: Ashley Holt College: Anna University Roll number: 2IANN8/47 Branch: Civil Engineering Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_079",
+      "confidence": 94.3076923076923,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "LORI HERNANDEZ",
+        "college": "OSMANIA UNIVERSITY",
+        "roll_number": "22OSM69I9",
+        "branch": "COMPUTER SCIENCE ENGINEERING",
+        "valid_upto": "2O28",
+        "id_number": "22OSM69I9"
+      },
+      "original_fields": {
+        "name": "Lori Hernandez",
+        "college": "Osmania University",
+        "roll_number": "22OSM6919",
+        "branch": "Computer Science Engineering",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - Name: Lori Hernandez College: Osmania University Roll number: 22OSM69I9 Branch: Computer Science Engineering Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_080",
+      "confidence": 94.20833333333333,
+      "accuracy": 0.6,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "JNTU KAKINADA",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Darin Love",
+        "college": "JNTU Kakinada",
+        "roll_number": "19JNTU4624",
+        "branch": "Civil Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O8O Name: Darin Love College: JNTU Kakinada Roll number: Branch: Civil Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_081",
+      "confidence": 92.29166666666667,
+      "accuracy": 0.6,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "JNTU KAKINADA",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Darin Love",
+        "college": "JNTU Kakinada",
+        "roll_number": "19JNTU4624",
+        "branch": "Civil Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O8I Name: Darin Love College: JNTU Kakinada Roll number: Branch: Civil Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_082",
+      "confidence": 91.17117117117117,
+      "accuracy": 0.8222222222222222,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.1111111111111111,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "SEAN RODRIGUEZ",
+        "college": "IIT BOMBAY",
+        "valid_upto": "2O27",
+        "roll_number": "T6OI8",
+        "branch": "MECHANICAL ENGINEERING"
+      },
+      "original_fields": {
+        "name": "Sean Rodriguez",
+        "college": "IIT Bombay",
+        "roll_number": "20IIT6018",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O82 Name: Sean Rodriguez College: IIT Bombay Roll number: 2OI/T6OI8 Branch: Mechanical Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_083",
+      "confidence": 91.69444444444444,
+      "accuracy": 0.9333333333333333,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.6666666666666666,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "ASHLEY HOLT",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "2IANN847",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O28",
+        "id_number": "2IANN8"
+      },
+      "original_fields": {
+        "name": "Ashley Holt",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "21ANN8747",
+        "branch": "Civil Engineering",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O83 Name: Ashley Holt College: ANNA UNIVERSITY Roll number: 2IANN8/47 Branch: Civil Engineering Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_084",
+      "confidence": 93.91150442477876,
+      "accuracy": 0.5789473684210527,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 0.8947368421052632,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "IIT BOMBAY",
+        "branch": "ELECTRONICS AND COMMUNICATION ENGINEE",
+        "valid_upto": "2O27",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Tammy Barnes",
+        "college": "IIT Bombay",
+        "roll_number": "19IIT8891",
+        "branch": "Electronics and communication Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O84 Name: Tammy Barnes College: IIT Bombay Roll number: Branch: Electronics and communication Enginee Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_085",
+      "confidence": 90.82945736434108,
+      "accuracy": 0.9789473684210526,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 0.8947368421052632,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "KEITH SMITH",
+        "college": "OSMANIA UNIVERSITY",
+        "roll_number": "I9OSM8SS3",
+        "branch": "ELECTRONICS AND COMMUNICATION ENGINEE",
+        "valid_upto": "2O27",
+        "id_number": "I9OSM8SS3"
+      },
+      "original_fields": {
+        "name": "Keith Smith",
+        "college": "Osmania UNiversity",
+        "roll_number": "19OSM8553",
+        "branch": "Electronics and communication Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O8S Name: Keith Smith College: Osmania UNiversity Roll number: I9OSM8SS3 Branch: Electronics and communication Enginee Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_086",
+      "confidence": 92.90265486725664,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "LAUREN HARRIS",
+        "college": "JNTU KAKINADA",
+        "roll_number": "2IJNT239S",
+        "branch": "ELECTRICAL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "2IJNT239S"
+      },
+      "original_fields": {
+        "name": "Lauren Harris",
+        "college": "JNTU Kakinada",
+        "roll_number": "21JNT2395",
+        "branch": "Electrical Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O86 Name: Lauren Harris College: JNTU Kakinada Roll number: 2IJNT239S Branch: Electrical Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_087",
+      "confidence": 89.40650406504065,
+      "accuracy": 0.9789473684210526,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 0.8947368421052632,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "MARTIN WALKER",
+        "college": "IIT BOMBAY",
+        "roll_number": "22IIT26I2",
+        "branch": "ELECTRONICS AND COMMUNICATION ENGINEE",
+        "valid_upto": "2O2S",
+        "id_number": "22IIT26I2"
+      },
+      "original_fields": {
+        "name": "Martin Walker",
+        "college": "IIT Bombay",
+        "roll_number": "22IIT2612",
+        "branch": "Electronics and communication Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_O87 Name: Martin Walker College: IIT Bombay Roll number: 22IIT26I2 Branch: Electronics and communication Enginee Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_088",
+      "confidence": 93.8974358974359,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "LARRY GARCIA",
+        "college": "OSMANIA UNIVERSITY",
+        "roll_number": "22OSMS3IO",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "22OSMS3IO"
+      },
+      "original_fields": {
+        "name": "Larry Garcia",
+        "college": "Osmania University",
+        "roll_number": "22OSM5310",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O88 Name: Larry Garcia College: Osmania University Roll number: 22OSMS3IO Branch: Mechanical Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_089",
+      "confidence": 94.64814814814815,
+      "accuracy": 0.6181818181818182,
+      "field_accuracy": {
+        "name": 0.09090909090909091,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "OSMANIA UNIVERSITY",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Ariana Smith",
+        "college": "Osmania University",
+        "roll_number": "22OSM7705",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_O89 Name: Ariana Smith College: Osmania University Roll number: Branch: Mechanical Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_090",
+      "confidence": 94.01612903225806,
+      "accuracy": 0.9837837837837838,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 0.918918918918919,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "ANGELA ALVAREZ",
+        "college": "NIT TRICHY",
+        "roll_number": "2INIT3O83",
+        "branch": "ELECTRONIC AND COMMUNICATION ENGINEER",
+        "valid_upto": "2O28",
+        "id_number": "2INIT3O83"
+      },
+      "original_fields": {
+        "name": "Angela Alvarez",
+        "college": "NIT Trichy",
+        "roll_number": "21NIT3083",
+        "branch": "Electronic and Communication Engineering",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O9O Name: Angela Alvarez College: NIT Trichy Roll number: 2INIT3O83 Branch: Electronic and Communication Engineer Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_091",
+      "confidence": 91.41322314049587,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "SARAH MOORE",
+        "college": "OSMANIA UNIVERSITY",
+        "roll_number": "22OSMSS6I",
+        "branch": "COMPUTER SCIENCE ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "22OSMSS6I"
+      },
+      "original_fields": {
+        "name": "Sarah Moore",
+        "college": "Osmania University",
+        "roll_number": "22OSM5561",
+        "branch": "Computer Science Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O9I Name: Sarah Moore College: Osmania University Roll number: 22OSMSS6I Branch: Computer Science Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_092",
+      "confidence": 89.57758620689656,
+      "accuracy": 0.9777777777777779,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.8888888888888888,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "TODD MILLER",
+        "college": "OSMANIA UNIVERSITY",
+        "roll_number": "L8OSMI464",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "L8OSMI464"
+      },
+      "original_fields": {
+        "name": "Todd Miller",
+        "college": "Osmania University",
+        "roll_number": "18OSM1464",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O92 Name: Todd Miller College: Osmania University Roll number: L8OSMI464 Branch: Mechanical Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_093",
+      "confidence": 94.14953271028037,
+      "accuracy": 0.6,
+      "field_accuracy": {
+        "name": 0.0,
+        "college": 1.0,
+        "roll_number": 0.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANCH",
+        "college": "JNTU KAKINADA",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "Branch"
+      },
+      "original_fields": {
+        "name": "Richard Williams",
+        "college": "JNTU Kakinada",
+        "roll_number": "19JNT4042",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_O93 Name: Richard Williams College: JNTU Kakinada Roll number: Branch: Mechanical Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_094",
+      "confidence": 93.54237288135593,
+      "accuracy": 0.9777777777777779,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.8888888888888888,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "MICHAEL SHEPPARD",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "L9ANNS97S",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "L9ANNS97S"
+      },
+      "original_fields": {
+        "name": "Michael Sheppard",
+        "college": "Anna University",
+        "roll_number": "19ANN5975",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_O94 Name: Michael Sheppard College: Anna University Roll number: L9ANNS97S Branch: Mechanical Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_095",
+      "confidence": 90.00806451612904,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "GRAY RODRIGUEZ",
+        "college": "OSMANIA UNIVERSITY",
+        "roll_number": "2OOSMIO38",
+        "branch": "COMPUTER SCIENCEENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "2OOSMIO38"
+      },
+      "original_fields": {
+        "name": "Gray Rodriguez",
+        "college": "Osmania University",
+        "roll_number": "20OSM1038",
+        "branch": "Computer ScienceEngineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_O9S Name: Gray Rodriguez College: Osmania University Roll number: 2OOSMIO38 Branch: Computer ScienceEngineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_096",
+      "confidence": 93.47328244274809,
+      "accuracy": 0.9567251461988304,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.8888888888888888,
+        "branch": 0.8947368421052632,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRENDA HERNANDEZ",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "L8ANNS473",
+        "branch": "ELECTRONICS AND COMMUNICATION ENGINEE",
+        "valid_upto": "2O28",
+        "id_number": "L8ANNS473"
+      },
+      "original_fields": {
+        "name": "Brenda Hernandez",
+        "college": "Anna University",
+        "roll_number": "18ANN5473",
+        "branch": "Electronics and communication Engineering",
+        "valid_upto": "2028"
+      },
+      "raw_text": "ID Card - stu_O96 Name: Brenda Hernandez College: Anna University Roll number: L8ANNS473 Branch: Electronics and communication Enginee Valid upto: 2O28"
+    },
+    {
+      "user_id": "stu_097",
+      "confidence": 88.90076335877863,
+      "accuracy": 0.8900584795321638,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.5555555555555556,
+        "branch": 0.8947368421052632,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "BRANDON JOHNSON",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "2OOANN662",
+        "branch": "ELECTRONICS AND COMMUNICATION ENGINEE",
+        "valid_upto": "2O26",
+        "id_number": "2OOANN6"
+      },
+      "original_fields": {
+        "name": "Brandon Johnson",
+        "college": "Anna University",
+        "roll_number": "20ANN6762",
+        "branch": "Electronics and communication Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_O97 Name: Brandon Johnson College: Anna University Roll number: 2OOANN6/62 Branch: Electronics and communication Enginee Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_098",
+      "confidence": 92.66363636363636,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "WAYNE GRAY",
+        "college": "JNTU KAKINADA",
+        "roll_number": "22JNT4434",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "22JNT4434"
+      },
+      "original_fields": {
+        "name": "Wayne Gray",
+        "college": "JNTU Kakinada",
+        "roll_number": "22JNT4434",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_O98 Name: Wayne Gray College: JNTU Kakinada Roll number: 22JNT4434 Branch: Mechanical Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_099",
+      "confidence": 94.63716814159292,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "JOHN FARMER",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "22ANN3362",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "22ANN3362"
+      },
+      "original_fields": {
+        "name": "John Farmer",
+        "college": "Anna University",
+        "roll_number": "22ANN3362",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_O99 Name: John Farmer College: Anna University Roll number: 22ANN3362 Branch: Mechanical Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_100",
+      "confidence": 93.60714285714286,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "KIMBERLY CARTER",
+        "college": "ANNA UNIVERSITY",
+        "roll_number": "2IANN468I",
+        "branch": "CIVIL ENGINEERING",
+        "valid_upto": "2O26",
+        "id_number": "2IANN468I"
+      },
+      "original_fields": {
+        "name": "Kimberly Carter",
+        "college": "Anna University",
+        "roll_number": "21ANN4681",
+        "branch": "Civil Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_IOO Name: Kimberly Carter College: Anna University Roll number: 2IANN468I Branch: Civil Engineering Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_101",
+      "confidence": 92.85123966942149,
+      "accuracy": 0.9111111111111111,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 0.5555555555555556,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "JESSICA CANTRELL",
+        "college": "JNTU KAKINADA",
+        "roll_number": "2OJNT3S2",
+        "branch": "COMPUTER SCIENCE ENGINEERING",
+        "valid_upto": "2O2S"
+      },
+      "original_fields": {
+        "name": "Jessica Cantrell",
+        "college": "JNTU Kakinada",
+        "roll_number": "20JNT7352",
+        "branch": "computer Science Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_IOI Name: Jessica Cantrell College: JNTU Kakinada Roll number: 2OJNT/3S2 Branch: computer Science Engineering Valid upto: 2O2S"
+    },
+    {
+      "user_id": "stu_102",
+      "confidence": 94.3015873015873,
+      "accuracy": 0.9837837837837838,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 0.918918918918919,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "CONNOR HERNANDEZ",
+        "college": "NIT TRICHY",
+        "roll_number": "22NIT3283",
+        "branch": "ELECTRONIC AND COMMUNICATION ENGINEER",
+        "valid_upto": "2O26",
+        "id_number": "22NIT3283"
+      },
+      "original_fields": {
+        "name": "Connor Hernandez",
+        "college": "NIT Trichy",
+        "roll_number": "22NIT3283",
+        "branch": "Electronic and Communication Engineering",
+        "valid_upto": "2026"
+      },
+      "raw_text": "ID Card - stu_IO2 Name: Connor Hernandez College: NIT Trichy Roll number: 22NIT3283 Branch: Electronic and Communication Engineer Valid upto: 2O26"
+    },
+    {
+      "user_id": "stu_103",
+      "confidence": 93.72477064220183,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "STEVE FOX",
+        "college": "JNTU KAKINADA",
+        "roll_number": "2IJNT82S2",
+        "branch": "MECHANICAL ENGINEERING",
+        "valid_upto": "2O27",
+        "id_number": "2IJNT82S2"
+      },
+      "original_fields": {
+        "name": "Steve Fox ",
+        "college": "JNTU Kakinada",
+        "roll_number": "21JNT8252",
+        "branch": "Mechanical Engineering",
+        "valid_upto": "2027"
+      },
+      "raw_text": "ID Card - stu_IO3 Name: Steve Fox College: JNTU Kakinada Roll number: 2IJNT82S2 Branch: Mechanical Engineering Valid upto: 2O27"
+    },
+    {
+      "user_id": "stu_104",
+      "confidence": 94.42372881355932,
+      "accuracy": 1.0,
+      "field_accuracy": {
+        "name": 1.0,
+        "college": 1.0,
+        "roll_number": 1.0,
+        "branch": 1.0,
+        "valid_upto": 1.0
+      },
+      "extracted_fields": {
+        "name": "MOHIT PATEL",
+        "college": "ABCD INSTITUTE",
+        "roll_number": "22LBCSIOI6",
+        "branch": "COMPUTER SCIENCE ENGINEERING",
+        "valid_upto": "2O2S",
+        "id_number": "22LBCSIOI6"
+      },
+      "original_fields": {
+        "name": "Mohit Patel ",
+        "college": "ABCD INSTITUTE",
+        "roll_number": "22LBCS1016",
+        "branch": "Computer Science Engineering",
+        "valid_upto": "2025"
+      },
+      "raw_text": "ID Card - stu_IO4 Name: Mohit Patel College: ABCD INSTITUTE Roll number: 22LBCSIOI6 Branch: Computer Science Engineering Valid upto: 2O2S"
+    }
+  ]
+}
