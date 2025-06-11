@@ -163,7 +163,7 @@ class NERProcessor:
         return results
     
     def process_text(self, text: str) -> Dict:
-        """Process text using trained NER model with improved pattern matching"""
+        """Process text using trained NER model with confidence scores"""
         # Preprocess text
         text = text.replace('\n', ' ').strip()
         text = re.sub(r'\s+', ' ', text)
@@ -171,20 +171,21 @@ class NERProcessor:
         doc = self.nlp(text)
         entities = {}
         
-        # NER extraction with confidence threshold
+        # NER extraction with confidence scores
         for ent in doc.ents:
             if len(ent.text.strip()) > 1:  # Filter out single-character entities
-                entities[ent.label_.lower()] = ent.text.strip()
+                entities[ent.label_.lower()] = {
+                    "text": ent.text.strip(),
+                    "confidence": 0.85  # Base confidence for NER matches
+                }
         
-        # Enhanced regex patterns with named groups
+        # Enhanced regex patterns with named groups for our specific ID card format
         patterns = {
-            "id_number": r"(?:ID|Number|#):\s*(?P<value>\b[A-Z0-9]{6,}\b)",
-            "date": r"(?:Date|DOB):\s*(?P<value>\d{2}[-/]\d{2}[-/]\d{4})",
-            "email": r"(?:Email|E-mail):\s*(?P<value>\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b)",
-            "phone": r"(?:Phone|Mobile|Tel):\s*(?P<value>(?:\+\d{1,3}[-\s]?)?\d{3}[-\s]?\d{3}[-\s]?\d{4})",
-            "name": r"(?:Name):\s*(?P<value>[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)",
-            "college": r"(?:College|Institution):\s*(?P<value>[A-Za-z\s.,&\-]+)",
-            "branch": r"(?:Branch|Department):\s*(?P<value>[A-Za-z\s]+)"
+            "name": r"Name:\s*(?P<value>[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)",
+            "college": r"College:\s*(?P<value>JNTU\s*Kakinada)",
+            "roll_number": r"Roll\s*number:\s*(?P<value>22JNT\d{4})",
+            "branch": r"Branch:\s*(?P<value>Computer\s*Science)",
+            "valid_upto": r"Valid\s*upto:\s*(?P<value>20\d{2})"
         }
         
         # Combine regex matches with NER results
@@ -192,13 +193,30 @@ class NERProcessor:
             if field not in entities:
                 matches = re.search(pattern, text, re.IGNORECASE)
                 if matches:
-                    entities[field] = matches.group('value').strip()
+                    entities[field] = {
+                        "text": matches.group('value').strip(),
+                        "confidence": 0.75  # Base confidence for regex matches
+                    }
         
         # Post-process extracted entities
         for field, value in entities.items():
-            # Remove common OCR artifacts
-            value = re.sub(r'[^\w\s@.-]', '', value)
-            value = value.strip()
-            entities[field] = value
+            # Clean the extracted text
+            cleaned_text = re.sub(r'[^\w\s@.-]', '', value["text"])
+            value["text"] = cleaned_text.strip()
             
+            # Adjust confidence based on field-specific rules
+            if field == "roll_number" and re.match(r'^22JNT\d{4}$', cleaned_text):
+                value["confidence"] += 0.2
+            elif field == "college" and "JNTU KAKINADA" in cleaned_text.upper():
+                value["confidence"] += 0.2
+            elif field == "branch" and "COMPUTER SCIENCE" in cleaned_text.upper():
+                value["confidence"] += 0.2
+            elif field == "valid_upto" and re.match(r'^20\d{2}$', cleaned_text):
+                value["confidence"] += 0.2
+            elif field == "name" and re.match(r'^[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*$', cleaned_text):
+                value["confidence"] += 0.2
+            
+            # Cap confidence at 1.0
+            value["confidence"] = min(value["confidence"], 1.0)
+        
         return entities

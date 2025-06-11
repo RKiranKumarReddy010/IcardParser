@@ -1,0 +1,1 @@
+This is not an image file. This is used for testing invalid file uploads. 

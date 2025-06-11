@@ -4,7 +4,7 @@ import pytesseract
 import json
 import os
 import re
-from PIL import Image
+from PIL import Image, ImageEnhance
 from typing import Dict, Any, Tuple
 from .ner_processor import NERProcessor
 
@@ -12,13 +12,10 @@ class OCRProcessor:
     def __init__(self, config_path: str = "config.json"):
         self.config = self._load_config(config_path)
         self.setup_tesseract()
-        self.ner = NERProcessor(model_path="trained_models/ner")
+        self.ner = NERProcessor(model_path=self.config.get("ner", {}).get("model_path", "trained_models/ner"))
     
     def _load_config(self, config_path: str) -> Dict[str, Any]:
-        if os.path.exists(config_path):
-            with open(config_path, 'r') as f:
-                return json.load(f)
-        return {
+        default_config = {
             "tesseract": {
                 "psm": 4,  # Assume uniform text block
                 "oem": 1,  # LSTM only
@@ -34,10 +31,27 @@ class OCRProcessor:
                 "morph_cleanup": True
             }
         }
+        
+        if os.path.exists(config_path):
+            with open(config_path, 'r') as f:
+                loaded_config = json.load(f)
+                # Merge loaded config with default config
+                if "tesseract" in loaded_config:
+                    default_config["tesseract"].update(loaded_config["tesseract"])
+                if "preprocessing" in loaded_config:
+                    default_config["preprocessing"].update(loaded_config["preprocessing"])
+                return default_config
+        return default_config
 
     def setup_tesseract(self):
         """Configure Tesseract with optimal parameters"""
-        self.tesseract_config = f'-l {self.config["tesseract"]["lang"]} --oem {self.config["tesseract"]["oem"]} --psm {self.config["tesseract"]["psm"]} {self.config["tesseract"]["config_params"]}'
+        tesseract_config = self.config.get("tesseract", {})
+        self.tesseract_config = (
+            f'-l {tesseract_config.get("lang", "eng")} '
+            f'--oem {tesseract_config.get("oem", 1)} '
+            f'--psm {tesseract_config.get("psm", 4)} '
+            f'{tesseract_config.get("config_params", "--dpi 300")}'
+        )
 
     def deskew(self, image: np.ndarray) -> np.ndarray:
         """Deskew the image if it's rotated"""
@@ -52,65 +66,33 @@ class OCRProcessor:
             image = cv2.warpAffine(image, M, (w, h), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
         return image
 
-    def preprocess_image(self, image_path: str) -> np.ndarray:
-        """Apply enhanced preprocessing steps to improve OCR accuracy"""
-        # Read image
-        img = cv2.imread(image_path)
-        
-        # Get preprocessing config with defaults
-        config = self.config.get("preprocessing", {})
-        resize_width = config.get("resize_width", 2400)
-        threshold_method = config.get("threshold_method", "adaptive")
-        use_denoise = config.get("denoise", True)
-        use_sharpen = config.get("sharpen", True)
-        use_deskew = config.get("deskew", True)
-        use_morph_cleanup = config.get("morph_cleanup", True)
-        
-        # Resize while maintaining aspect ratio
-        scale = resize_width / img.shape[1]
-        width = int(img.shape[1] * scale)
-        height = int(img.shape[0] * scale)
-        img = cv2.resize(img, (width, height), interpolation=cv2.INTER_LANCZOS4)
-        
+    def preprocess_image(self, image: Image) -> Image:
+        """Preprocess image for better OCR results"""
         # Convert to grayscale
-        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        image = image.convert('L')
         
-        # Apply denoising if configured
-        if use_denoise:
-            gray = cv2.fastNlMeansDenoising(gray, None, 10, 7, 21)
+        # Increase contrast
+        enhancer = ImageEnhance.Contrast(image)
+        image = enhancer.enhance(2.0)
         
-        # Apply sharpening if configured
-        if use_sharpen:
-            kernel = np.array([[-1,-1,-1], [-1,9,-1], [-1,-1,-1]])
-            gray = cv2.filter2D(gray, -1, kernel)
+        # Apply thresholding
+        image = image.point(lambda x: 0 if x < 128 else 255, '1')
         
-        # Apply thresholding with better parameters
-        if threshold_method == "adaptive":
-            binary = cv2.adaptiveThreshold(
-                gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
-                cv2.THRESH_BINARY, 21, 11
-            )
-        else:
-            binary = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
+        # Resize if too small
+        if image.width < 1000 or image.height < 600:
+            ratio = max(1000/image.width, 600/image.height)
+            new_size = (int(image.width * ratio), int(image.height * ratio))
+            image = image.resize(new_size, Image.LANCZOS)
         
-        # Deskew if configured
-        if use_deskew:
-            binary = self.deskew(binary)
-        
-        # Apply morphological operations to clean up the image
-        if use_morph_cleanup:
-            kernel = np.ones((2,2), np.uint8)
-            binary = cv2.morphologyEx(binary, cv2.MORPH_CLOSE, kernel)
-        
-        return binary
+        return image
 
     def extract_text(self, image_path: str) -> Tuple[str, float]:
         """Extract text from image with improved confidence calculation"""
         # Preprocess image
-        processed_img = self.preprocess_image(image_path)
+        processed_img = self.preprocess_image(Image.open(image_path))
         
         # Convert OpenCV image to PIL Image
-        pil_img = Image.fromarray(processed_img)
+        pil_img = processed_img
         
         # Get OCR data including confidence
         ocr_data = pytesseract.image_to_data(
@@ -180,26 +162,27 @@ class OCRProcessor:
         
         return extracted_fields
 
-    def process_id_card(self, image_path: str) -> Dict[str, Any]:
-        """Process ID card image with improved OCR and NER"""
-        # Perform enhanced OCR
-        raw_text, confidence = self.extract_text(image_path)
+    def process_id_card(self, image_path: str) -> Dict:
+        """Process ID card image and extract information"""
+        # Load and preprocess image
+        image = Image.open(image_path)
+        processed_image = self.preprocess_image(image)
+        
+        # Configure Tesseract
+        custom_config = r'--oem 3 --psm 6 -c tessedit_char_whitelist="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789:@._- "'
+        
+        # Extract text
+        text = pytesseract.image_to_string(processed_image, config=custom_config)
         
         # Process with NER
-        extracted_fields = self.ner.process_text(raw_text)
+        ner_results = self.ner.process_text(text)
         
-        # Post-process extracted fields
-        processed_fields = {}
-        for field, value in extracted_fields.items():
-            # Clean and normalize field values
-            cleaned_value = self.clean_text(str(value))
-            # Convert to uppercase for consistency
-            if field in ['name', 'college', 'branch']:
-                cleaned_value = cleaned_value.upper()
-            processed_fields[field] = cleaned_value
+        # Calculate overall confidence
+        confidences = [v.get('confidence', 0) for v in ner_results.values() if isinstance(v, dict)]
+        overall_confidence = sum(confidences) / len(confidences) if confidences else 0
         
         return {
-            "confidence": confidence,
-            "raw_text": raw_text,
-            "extracted_fields": processed_fields
+            "extracted_fields": ner_results,
+            "overall_confidence": overall_confidence,
+            "raw_text": text
         } 
