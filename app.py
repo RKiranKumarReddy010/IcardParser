@@ -2,7 +2,7 @@ import requests
 import base64
 
 # Read an image file
-with open(r'C:\Users\KIRAN\Documents\Multimodel\Test\resource\b5ef77d9-c2b4-4459-99f7-277ad07061f9.png', 'rb') as f:
+with open(r'C:\Users\KIRAN\Documents\Multimodel\Test\resource\valid_id.png', 'rb') as f:
     image_data = base64.b64encode(f.read()).decode()
 
 # Send to API

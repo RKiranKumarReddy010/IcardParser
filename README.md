@@ -2,19 +2,37 @@
 
 This API provides endpoints for processing ID cards using OCR (Optical Character Recognition) and NER (Named Entity Recognition) to extract information from ID card images.
 
+## Constraints
+
+- 100% offline processing
+- No GPT/OpenAI/cloud OCR APIs
+- Uses only open-source tools:
+  - Tesseract for OCR
+  - spaCy for NER
+  - scikit-learn for ML tasks
+- Docker containerized deployment
+- Input: base64 image in JSON
+- Output: structured JSON
+
 ## Setup
 
-1. Install dependencies:
+1. Build and run using Docker:
+```bash
+docker build -t idcard-extractor .
+docker run -p 8000:8000 idcard-extractor
+```
+
+2. Or install dependencies manually:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Configure the application:
+3. Configure the application:
 - Edit `config.json` to set your desired configuration
 - Make sure you have the required model files in `trained_models/ner`
 - Ensure Tesseract is properly installed and configured
 
-3. Run the API:
+4. Run the API:
 ```bash
 python run_api.py
 ```
@@ -119,3 +137,21 @@ The API returns appropriate HTTP status codes:
 - 500: Server error (e.g., processing failure)
 
 Error responses include a detail message explaining the error.
+
+## Project Timeline (6 Weeks)
+
+1. Week 1: Sample dataset and regex pattern design
+2. Week 2: OCR setup + baseline extraction logic
+3. Week 3: Train NER model and test on held-out samples
+4. Week 4: Integrate with FastAPI and config.json
+5. Week 5: Add field-wise confidence, logging, and tests
+6. Week 6: Final documentation and packaging
+
+## Docker Image Contents
+
+The Docker image includes:
+- All Python dependencies
+- Pretrained models
+- Tesseract and supporting binaries
+- Configuration files
+- Application code

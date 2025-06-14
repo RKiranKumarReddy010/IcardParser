@@ -1,0 +1,24 @@
+{
+    "extracted_fields": {
+        "name": "John Smith",
+        "id_number": "ID12345678",
+        "date_of_birth": "1990-05-15",
+        "address": "123 Main Street, Cityville, ST 12345",
+        "expiry_date": "2025-12-31",
+        "document_type": "Driver's License",
+        "issuing_authority": "Department of Motor Vehicles"
+    },
+    "confidence_scores": {
+        "name": 0.95,
+        "id_number": 0.98,
+        "date_of_birth": 0.92,
+        "address": 0.85,
+        "expiry_date": 0.94,
+        "document_type": 0.97,
+        "issuing_authority": 0.89
+    },
+    "raw_text": "DRIVER'S LICENSE\nName: John Smith\nID: ID12345678\nDOB: 05/15/1990\nAddress: 123 Main Street\nCityville, ST 12345\nExpires: 12/31/2025\nIssued by: Department of Motor Vehicles",
+    "overall_confidence": 0.928,
+    "processing_time_ms": 1250,
+    "image_quality_score": 0.92
+} 

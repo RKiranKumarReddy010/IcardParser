@@ -2,7 +2,8 @@
     "api": {
         "host": "0.0.0.0",
         "port": 8000,
-        "debug": false
+        "debug": false,
+        "version": "1.0.0"
     },
     "tesseract": {
         "lang": "eng",
@@ -16,23 +17,62 @@
         "preprocessing": {
             "resize_width": 800,
             "denoise": true,
-            "contrast_enhancement": true
+            "contrast_enhancement": true,
+            "deskew": true,
+            "border_removal": true
         }
     },
     "ner": {
         "model_path": "trained_models/ner",
         "confidence_threshold": 0.7,
-        "fields": [
-            "name",
-            "id_number",
-            "date_of_birth",
-            "address",
-            "expiry_date"
-        ]
+        "fields": {
+            "name": {
+                "pattern": "^[A-Z][a-z]+(?:\\s[A-Z][a-z]+)*$",
+                "required": true,
+                "min_length": 2,
+                "max_length": 50
+            },
+            "id_number": {
+                "pattern": "^[A-Z0-9]{8,12}$",
+                "required": true,
+                "min_length": 8,
+                "max_length": 12
+            },
+            "date_of_birth": {
+                "pattern": "^(19|20)\\d{2}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$",
+                "required": true
+            },
+            "address": {
+                "pattern": "^[0-9]+\\s+[A-Za-z0-9\\s,.-]+$",
+                "required": true,
+                "min_length": 5,
+                "max_length": 100
+            },
+            "expiry_date": {
+                "pattern": "^(19|20)\\d{2}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$",
+                "required": true
+            },
+            "document_type": {
+                "pattern": "^(Driver's License|State ID|Passport|National ID)$",
+                "required": true
+            },
+            "issuing_authority": {
+                "pattern": "^[A-Za-z\\s]+(?:Department|Authority|Bureau|Office)$",
+                "required": true
+            }
+        }
     },
     "storage": {
         "temp_dir": "temp",
         "log_dir": "logs",
-        "max_file_size_mb": 10
+        "max_file_size_mb": 10,
+        "retention_days": 7
+    },
+    "logging": {
+        "level": "INFO",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        "file": "logs/app.log",
+        "max_size_mb": 10,
+        "backup_count": 5
     }
 } 
